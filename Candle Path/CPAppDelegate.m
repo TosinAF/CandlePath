@@ -6,14 +6,27 @@
 //  Copyright (c) 2013 Tosin Afolabi. All rights reserved.
 //
 
+#define GOOGLE_MAPS_API_KEY @"AIzaSyDaiGCkZQprR7n1r2J7ulNd11l3QBdWplo"
+
 #import "CPAppDelegate.h"
+#import "CPRootViewController.h"
+#import "CPPaypalViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation CPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [GMSServices provideAPIKey:GOOGLE_MAPS_API_KEY];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
+    CPRootViewController *viewController = [[CPRootViewController alloc] init];
+
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = navController;
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
