@@ -1,0 +1,179 @@
+/* Reset */
+html,body,div,span,object,iframe,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{background:transparent;font-size:100%;margin:0;padding:0;vertical-align:baseline}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{border:0;border-top:1px solid #ccc;display:block;height:1px;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+
+/* General */
+::selection{background:#000;color:#FFF}
+::-moz-selection{background-color:#000;color:#FFF}
+::-moz-focus-inner{border:0;margin:0;padding:0}
+a,a:visited{color:#2e2e2e;outline:none;text-decoration:none;}
+a:hover{color:#666;outline:none;text-decoration:none;}
+h1, h2, h3{font-family:"Helvetica Neue",Helvetica,Arial,Lucida Grande,sans-serif;-webkit-font-smoothing: antialiased;border:0;margin:0;padding:0}
+
+body{-webkit-font-smoothing:antialiased;color:#2D2D2D;font-family:"Helvetica Neue",Helvetica,Arial,Lucida Grande,sans-serif;line-height:1;word-wrap:break-word;overflow-x:hidden;background-image:none;background-color:#FFF;margin:0;padding:0;overflow-x:hidden}
+.inner_wrapper{width:1000px;margin-right:auto;margin-left:auto}
+.waypoint{height:0;width:0;margin-top:-200px;position:absolute}
+.header_left .top_header h1{color:#fff;font-size:34px;line-height:54px;font-weight:200;margin:0;padding:0 0 20px}
+.divide{background-color:#E3E3E3;clear:both;float:left;height:1px;width:100%;margin:0;padding:0}
+.inner_section{width:770px;margin-right:auto;margin-left:auto;height:699px;padding-top:90px;display:none}
+
+
+
+/* Footer */
+.footer_left{float:left;width:auto;line-height:20px;font-size:12px;color:#A9A9A9}
+.footer .inner_wrapper .footer_left p{font-size:12px;font-weight:700;color:#7D7D7D}
+.footer .inner_wrapper .footer_right{float:right}
+.footer .inner_wrapper{clear:both}
+.footer{clear:both;float:left;width:100%;height:70px;padding-top:30px;display:none}
+
+
+/* Loading icon */
+.header_wrapper{float:left;height:882px;width:100%;background-image: url(../images/Preloader_9.gif);background-position: center 400px;background-repeat: no-repeat;}
+
+
+/* Header */
+.header{background-image:url(../images/subway-lines2.png);background-repeat:no-repeat;background-position:center top;height:882px;width:100%;float:left;display:none}
+.header_left{float:left;width:500px;padding-top:310px;display:none}
+.header_right{float:right;width:450px;padding-top:80px}
+.top_header .header_or{font-size:15px;color:#A9A9A9;display:block;float:left;width:50px;text-align:center;padding-top:30px}
+.header .inner_wrapper .header_left .mid_header{float:left;width:100%;padding-top:160px;font-size:16px;color:#AAA;line-height:24px}
+.header .inner_wrapper .header_left .mid_header p{padding-top:34px}
+
+
+/* Appstore Button */
+a.appstore_button{background-image:url(../images/store_buttons.png);display:block;float:left;height:76px;width:222px}
+
+
+/* Google Play Button */
+a.google_play_button{background-image:url(../images/store_buttons.png);background-repeat:no-repeat;float:left;height:76px;width:220px;background-position:-260px 0;display:block}
+
+
+/* Header iPhones */
+.header_right .iphone_one{background-image:url(../images/ss2.png);background-repeat:no-repeat;height:699px;width:330px;position:absolute;z-index:0;display:none}
+.header_right .iphone_two{background-image:url(../images/ss1.png);background-repeat:no-repeat;height:699px;width:330px;position:absolute;margin-left:120px;z-index:5;display:none}
+
+
+
+/* Section one */
+.section_one{background-image:url(../images/grey_background.png);background-repeat:repeat;height:882px;width:100%;float:left;display:none;margin:0;padding:0}
+.section_one .iphone_section_one{background-image:url(../images/ss2.png);height:699px;width:330px;float:left}
+.section_one .inner_section h2{float:left;margin-left:40px;font-size:28px;color:#595959;font-weight:200;padding-top:280px}
+.section_one .inner_section p{float:left;margin-left:40px;font-size:21px;line-height:36px;color:#8D8D8D;font-weight:400;width:400px}
+.section_one .inner_section .section_text_wrapper{float:left;width:400px}
+
+
+/* Section two */
+.section_two{background-image:url(../images/black_background.png);background-repeat:repeat;height:882px;width:100%;float:left;display:none}
+.section_two .iphone_section_two{background-image:url(../images/ss3.png);height:699px;width:330px;float:right}
+.section_two .inner_section .section_text_wrapper h2{float:left;margin-left:0;font-size:28px;color:#FFF;font-weight:400;padding-top:280px;text-align:right;width:400px}
+.section_two .inner_section .section_text_wrapper p{float:left;margin-left:0;font-size:21px;line-height:36px;color:#A5A5A5;font-weight:300;width:400px;text-align:right}
+.section_two .inner_section .section_text_wrapper{float:left;width:400px}
+
+
+/* Section three */
+.section_three{background-image:url(../images/grey_background.png);background-repeat:repeat;float:left;height:882px;width:100%;display:none}
+.section_three .inner_section .section_text_wrapper h2{float:left;margin-left:40px;font-size:28px;color:#595959;font-weight:400;padding-top:280px}
+.section_three .inner_section .section_text_wrapper p{float:left;margin-left:40px;font-size:21px;line-height:36px;color:#8D8D8D;font-weight:300;width:400px}
+.section_three .inner_section .section_text_wrapper{float:left;width:400px}
+.section_three .inner_section .iphone_section_three{background-image:url(../images/ss4.png);height:699px;width:330px;float:left}
+
+
+/* Section feature */
+.section_features{float:left;height:175px;width:100%;display:none}
+.section_features .inner_wrapper h3{font-size:14px;font-weight:400;color:#999;text-align:center;padding-top:40px;padding-bottom:30px}
+.section_features a{-webkit-filter:grayscale(100%);opacity:0.5}
+.section_features a:hover{-webkit-filter:grayscale(0%);transition:opacity .25s ease-in-out;-moz-transition:opacity .25s ease-in-out;-webkit-transition:opacity .25s ease-in-out;opacity:1}
+.section_features .inner_wrapper{height:175px}
+
+
+/* Feature logos */
+.feature_logo_one{background-image:url(../images/featured_icons.png);background-repeat:no-repeat;background-position:0 -14px;display:block;height:50px;width:200px;float:left;margin-right:20px;margin-left:70px}
+.feature_logo_two{background-image:url(../images/featured_icons.png);background-repeat:no-repeat;background-position:-217px -13px;display:block;height:50px;width:200px;float:left;margin-right:20px}
+.feature_logo_three{background-image:url(../images/featured_icons.png);background-repeat:no-repeat;background-position:-470px -15px;display:block;height:50px;width:200px;float:left;margin-right:20px}
+.feature_logo_four{background-image:url(../images/featured_icons.png);background-repeat:no-repeat;background-position:-721px -13px;display:block;height:50px;width:200px;float:left;margin-right:20px}
+
+
+
+/* Footer soical icons */
+a.twitter_icon{background-image:url(../images/social_icons.png);float:left;height:34px;width:36px;margin-right:0;display:block;margin-left:6px}
+a.facebook_icon{background-image:url(../images/social_icons.png);float:left;height:34px;width:36px;margin-right:0;display:block;background-position:-43px 0;background-repeat:no-repeat;margin-left:6px}
+a.appstore_icon{background-image:url(../images/social_icons.png);float:left;height:34px;width:36px;display:block;background-repeat:no-repeat;background-position:-87px 0;margin-left:6px}
+
+
+
+/* Team section */
+.section_team .inner_wrapper .team_member_wrapper{display:block;float:left;width:300px;margin-left:28px}
+.team_member_wrapper .team_user_icon{background-repeat:no-repeat;float:left;height:120px;width:120px}
+.team_member_wrapper .team_member_info{float:left;margin-left:20px;margin-top:22px;width:160px}
+.team_member_info a.team_social_icon_twitter{background-image:url(../images/team_social_icons.png);background-repeat:no-repeat;background-position:0 0;display:block;float:left;height:29px;width:29px;margin-right:6px}
+.team_member_info a.team_social_icon_dribbble{background-image:url(../images/team_social_icons.png);background-repeat:no-repeat;background-position:-38px 0;display:block;float:left;height:29px;width:29px;margin-right:6px}
+.section_team{float:left;width:100%;padding-bottom:60px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#E3E3E3;display:none}
+.team_title{text-align:center}
+.team_title h3{font-size:22px;font-weight:700;padding-top:60px;color:#595959}
+.section_team .inner_wrapper .team_title p{font-size:16px;font-weight:200;color:#929292;padding-top:5px;padding-bottom:50px}
+.team_member_info h4{font-size:15px;font-weight:700;color:#545454}
+.team_member_wrapper .team_member_info p{font-size:13px;color:#7F7F7F;padding-top:5px;padding-bottom:8px}
+.team_user_icon.team_member_one{background-image:url(../images/team_member_1.png)}
+.team_user_icon.team_member_two{background-image:url(../images/team_member_2.png)}
+.team_user_icon.team_member_three{background-image:url(../images/team_member_3.png)}
+
+
+
+
+/* Animations */
+.animated{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translateY(-2000px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes fadeInDownBig{0%{opacity:0;-moz-transform:translateY(-2000px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes fadeInDownBig{0%{opacity:0;-o-transform:translateY(-2000px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframes fadeInDownBig{0%{opacity:0;transform:translateY(-2000px)}100%{opacity:1;transform:translateY(0)}}.fadeInDownBig{-webkit-animation-name:fadeInDownBig;-moz-animation-name:fadeInDownBig;-o-animation-name:fadeInDownBig;animation-name:fadeInDownBig}@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translateX(-2000px)}100%{opacity:1;-webkit-transform:translateX(0)}}@-moz-keyframes fadeInLeftBig{0%{opacity:0;-moz-transform:translateX(-2000px)}100%{opacity:1;-moz-transform:translateX(0)}}@-o-keyframes fadeInLeftBig{0%{opacity:0;-o-transform:translateX(-2000px)}100%{opacity:1;-o-transform:translateX(0)}}@keyframes fadeInLeftBig{0%{opacity:0;transform:translateX(-2000px)}100%{opacity:1;transform:translateX(0)}}.fadeInLeftBig{-webkit-animation-name:fadeInLeftBig;-moz-animation-name:fadeInLeftBig;-o-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translateX(2000px)}100%{opacity:1;-webkit-transform:translateX(0)}}@-moz-keyframes fadeInRightBig{0%{opacity:0;-moz-transform:translateX(2000px)}100%{opacity:1;-moz-transform:translateX(0)}}@-o-keyframes fadeInRightBig{0%{opacity:0;-o-transform:translateX(2000px)}100%{opacity:1;-o-transform:translateX(0)}}@keyframes fadeInRightBig{0%{opacity:0;transform:translateX(2000px)}100%{opacity:1;transform:translateX(0)}}.fadeInRightBig{-webkit-animation-name:fadeInRightBig;-moz-animation-name:fadeInRightBig;-o-animation-name:fadeInRightBig;animation-name:fadeInRightBig}
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+	
+body{overflow-x:hidden}
+.inner_wrapper{width:100%;margin-right:0;margin-left:0}
+.header .inner_wrapper .header_left .mid_header {float: left;width: 80%;padding: 10%;padding-top: 15px;font-size: 16px;color: #AAA;line-height: 24px}
+.header_wrapper{background-image: url(../images/loading_icon.gif);background-position: center 200px}
+.top_header{padding: 30px;height:490px}
+.header_left{float: left;width: 50%;padding-top: 90px;margin-right: 0%;margin-left: 0%}
+.header_right{width: 50%;right: 0px;height: 700px;position: absolute;overflow-x: hidden}
+.header_right .iphone_one{background-image:url(../images/header_iphone_1.png);background-repeat:no-repeat;height:699px;width:307px;position:absolute;z-index:0;display:none}
+.header_right .iphone_two{background-image:url(../images/header_iphone_2.png);background-repeat:no-repeat;height:699px;position:absolute;margin-left:120px;z-index:5;display:none}
+.inner_section{width:100%;margin-right:0;margin-left:0;padding-top:50px}
+.section_one .inner_section h2{float:none;margin-left:0;font-size:28px;text-align:center;color:#595959;font-weight:200;padding-top:40px}
+.section_one .inner_section p{float:left;margin-left:0;font-size:21px;text-align:center;line-height:36px;width:100%}
+.top_header .header_or{clear:both;width:100%;text-align:left;padding-top:30px;padding-bottom:30px}
+a.google_play_button{clear:both}
+.section_two .inner_section .section_text_wrapper h2{padding-top:20px;width:100%;float:none;margin-left:0;text-align:center}
+.section_three .inner_section .section_text_wrapper h2{float:none;margin-left:0;padding-top:40px;text-align:center}
+.section_features .inner_wrapper{height:auto;padding-top:30px}
+.section_features{height:auto}
+.section_features .divide{margin-top:30px}
+.section_features .inner_wrapper h3{padding-bottom:50px}
+.footer{margin-left:10%;margin-right:10%;clear:both;float:left;width:80%;height:70px;padding-top:30px;display:none}
+.section_one .iphone_section_one,.section_two .iphone_section_two,.section_three .inner_section .iphone_section_three{height:530px;width:250px;float:none;margin-right:auto;margin-left:auto;clear:both;background-size:250px 530px}
+.section_one .inner_section .section_text_wrapper,.section_two .inner_section .section_text_wrapper,.section_three .inner_section .section_text_wrapper{float:none;width:90%;margin-left:5%;margin-right:5%}
+.section_two .inner_section .section_text_wrapper p,.section_three .inner_section .section_text_wrapper p{float:left;margin-left:0;font-size:21px;text-align:center;line-height:36px;width:100%;margin-bottom:20px}
+.feature_logo_one,.feature_logo_two,.feature_logo_three,.feature_logo_four{clear:both;width:200px;margin-bottom:50px;float:none;margin-right:auto;margin-left:auto}
+.section_team .inner_wrapper .team_member_wrapper{display: block;float: none;clear: both;height: 170px;width: 300px;margin-left: auto;margin-right: auto}
+
+}
+
+@media screen and (max-width: 480px) {
+	
+.header_right{display:none}
+.header_left{float: left;width: 100%;padding-top: 90px;margin-right: 0px;margin-left: 0px}
+.section_team .inner_wrapper .team_member_wrapper{display: block;float: none;clear: both;height: 170px;width: 300px;margin-left: auto;margin-right: auto}
+.header .inner_wrapper .header_left .mid_header {float: left;width: 80%;padding: 10%;padding-top: 30px;font-size: 16px;color: #AAA;line-height: 24px}
+.header_left {float: left;width: 90%;padding-left: 5%;padding-right: 5%;padding-top: 70px;margin-right: 0px;margin-left: 0px}
+
+}
+
+@media screen and (min-width: 1800px) {
+	
+.header {background-size:100% 646px}
+
+}
