@@ -115,9 +115,9 @@ a.appstore_icon{background-image:url(../images/social_icons.png);float:left;heig
 .team_member_info h4{font-size:15px;font-weight:700;color:#545454}
 .team_member_wrapper .team_member_info p{font-size:13px;color:#7F7F7F;padding-top:5px;padding-bottom:8px}
 .team_member_wrapper .team_member_info a{font-size:13px;color:#7F7F7F;padding-top:5px;padding-bottom:8px; display: block;}
-.team_user_icon.team_member_one{background-image:url(../images/team_member_1.png)}
-.team_user_icon.team_member_two{background-image:url(../images/team_member_2.png)}
-.team_user_icon.team_member_three{background-image:url(../images/team_member_3.png)}
+.team_user_icon.team_member_one{background-image:url(../images/tm2.png)}
+.team_user_icon.team_member_two{background-image:url(../images/tm2.png)}
+.team_user_icon.team_member_three{background-image:url(../images/tm3.png)}
 
 
 
